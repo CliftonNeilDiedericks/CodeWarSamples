@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CodeWarsSamples
 {
@@ -109,20 +110,22 @@ namespace CodeWarsSamples
             //Console.WriteLine("The count of universal value trees trees is : " + UniversalValueTree.count_univals(root));
 
             //Cutting Rod
-            int[] arr = new int[] { 1, 5, 8, 9, 10, 17, 17, 20 };
-            int size = arr.Length;
-            var watch = System.Diagnostics.Stopwatch.StartNew();
-            var result = CuttingRod.cutRod(arr, size);
-            watch.Stop();
-            var elapsedMs = watch.ElapsedMilliseconds;
-            Console.WriteLine("Maximum Obtainable Value is " + result+ " Time taken :" + elapsedMs.ToString());
-            watch = System.Diagnostics.Stopwatch.StartNew();
-            var result2 = CuttingRod.cutRodDP(arr, size);
-            watch.Stop();
-            elapsedMs = watch.ElapsedMilliseconds;
-            Console.WriteLine("Maximum Obtainable Value is " + result2 + " Time taken :" + elapsedMs.ToString());
-
+            //int[] arr = new int[] { 1, 5, 8, 9, 10, 17, 17, 20 };
+            //int size = arr.Length;
+            //var watch = System.Diagnostics.Stopwatch.StartNew();
+            //var result = CuttingRod.cutRod(arr, size);
+            //watch.Stop();
+            //var elapsedMs = watch.ElapsedMilliseconds;
+            //Console.WriteLine("Maximum Obtainable Value is " + result+ " Time taken :" + elapsedMs.ToString());
+            //watch = System.Diagnostics.Stopwatch.StartNew();
+            //var result2 = CuttingRod.cutRodDP(arr, size);
+            //watch.Stop();
+            //elapsedMs = watch.ElapsedMilliseconds;
+            //Console.WriteLine("Maximum Obtainable Value is " + result2 + " Time taken :" + elapsedMs.ToString());
             
+            //Anagram
+            var a = Anagram.Anagrams("a", new List<string> { "a", "b", "c", "d" });
+            var b = Anagram.Anagrams("racer", new List<string> { "carer", "arcre", "carre", "racrs", "racers", "arceer", "raccer", "carrer", "cerarr" });
             Console.ReadKey();
         }
     }

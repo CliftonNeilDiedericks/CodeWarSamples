@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dieden\\Documents\\Visual Studio 2019\\Projects\\CodeWarsSamples\\CodeWarsSamples.csproj": {}
+    "C:\\Users\\Neilo\\Source\\Repos\\CodeWarSamples\\CodeWarsSamples\\CodeWarsSamples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dieden\\Documents\\Visual Studio 2019\\Projects\\CodeWarsSamples\\CodeWarsSamples.csproj": {
+    "C:\\Users\\Neilo\\Source\\Repos\\CodeWarSamples\\CodeWarsSamples\\CodeWarsSamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dieden\\Documents\\Visual Studio 2019\\Projects\\CodeWarsSamples\\CodeWarsSamples.csproj",
+        "projectUniqueName": "C:\\Users\\Neilo\\Source\\Repos\\CodeWarSamples\\CodeWarsSamples\\CodeWarsSamples.csproj",
         "projectName": "CodeWarsSamples",
-        "projectPath": "C:\\Users\\dieden\\Documents\\Visual Studio 2019\\Projects\\CodeWarsSamples\\CodeWarsSamples.csproj",
-        "packagesPath": "C:\\Users\\dieden\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dieden\\Documents\\Visual Studio 2019\\Projects\\CodeWarsSamples\\obj\\",
+        "projectPath": "C:\\Users\\Neilo\\Source\\Repos\\CodeWarSamples\\CodeWarsSamples\\CodeWarsSamples.csproj",
+        "packagesPath": "C:\\Users\\Neilo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Neilo\\Source\\Repos\\CodeWarSamples\\CodeWarsSamples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\dieden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Neilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/aspnetvnext/": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -81,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.116\\RuntimeIdentifierGraph.json"
         }
       }
     }

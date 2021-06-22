@@ -9,3 +9,14 @@ C:\Users\dieden\Documents\Visual Studio 2019\Projects\CodeWarsSamples\obj\Debug\
 C:\Users\dieden\Documents\Visual Studio 2019\Projects\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.AssemblyInfo.cs
 C:\Users\dieden\Documents\Visual Studio 2019\Projects\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.dll
 C:\Users\dieden\Documents\Visual Studio 2019\Projects\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.pdb
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\bin\Debug\netcoreapp3.0\CodeWarsSamples.exe
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\bin\Debug\netcoreapp3.0\CodeWarsSamples.deps.json
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\bin\Debug\netcoreapp3.0\CodeWarsSamples.runtimeconfig.json
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\bin\Debug\netcoreapp3.0\CodeWarsSamples.runtimeconfig.dev.json
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\bin\Debug\netcoreapp3.0\CodeWarsSamples.dll
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\bin\Debug\netcoreapp3.0\CodeWarsSamples.pdb
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.csprojAssemblyReference.cache
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.AssemblyInfoInputs.cache
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.AssemblyInfo.cs
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.dll
+C:\Users\Neilo\Source\Repos\CodeWarSamples\CodeWarsSamples\obj\Debug\netcoreapp3.0\CodeWarsSamples.pdb
