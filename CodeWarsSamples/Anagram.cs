@@ -109,6 +109,25 @@ namespace CodeWarsSamples
          .Where(x => String.Concat(x.OrderBy(c => c)).Equals(String.Concat(word.OrderBy(c => c))))
          .Select(x => x)
          .ToList();
+
+        public static List<string> Anagrams4(string s, List<string> words)
+        {
+            List<string> anagrams = new List<string>();
+
+            string word;
+            foreach (var item in words)
+            {
+                word = item;
+                foreach (char letter in s)
+                {
+                    if (word.Contains(letter) && s.Length == item.Length) word = word.Remove(word.IndexOf(letter), 1);
+                    else break;
+                    if (string.IsNullOrEmpty(word)) anagrams.Add(item);
+                }
+            }
+
+            return anagrams;
+        }
     }
    
 }
