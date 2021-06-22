@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CodeWarsSamples
@@ -77,5 +78,37 @@ namespace CodeWarsSamples
             return false;
 
         }
+        public static List<string> Anagrams2(string word, List<string> words)
+        {
+            List<string> anagrams = new List<string>();
+
+            words = words.FindAll(_word => _word.Length == word.Length);
+
+            char[] original_letters = word.ToCharArray();
+            Array.Sort(original_letters);
+            word = string.Join("", original_letters);
+
+            foreach (string _word in words)
+            {
+                char[] letters = _word.ToCharArray();
+                Array.Sort(letters);
+                string sorted_word = string.Join("", letters);
+                if (string.Equals(word, sorted_word))
+                    anagrams.Add(_word);
+            }
+            return anagrams;
+        }
+        public static List<string> AnagramsBest(string word, List<string> words)
+        {
+            var pattern = word.OrderBy(p => p).ToArray();
+            return words.Where(item => item.OrderBy(p => p).SequenceEqual(pattern)).ToList();
+        }
+
+        public static List<string> Anagrams3(string word, List<string> words) =>
+          words
+         .Where(x => String.Concat(x.OrderBy(c => c)).Equals(String.Concat(word.OrderBy(c => c))))
+         .Select(x => x)
+         .ToList();
     }
+   
 }
